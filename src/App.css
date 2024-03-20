@@ -1,6 +1,7 @@
 .box {
   border: 1px solid black;
   width: 50%;
+  text-align: center;
 }
 .box-img {
   max-width: 300px;
@@ -11,4 +12,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.result {
+  font-size: 24px;
+}
+.noitemtxt {
+  font-size: 20px;
+  font-weight: bold;
+}
+.box.win {
+  padding: 4px;
+  background: linear-gradient(135deg, #957dad, #d291bc);
+  color: white;
+}
+.box.lose {
+  padding: 4px;
+  background: linear-gradient(135deg, #333333, #000000);
+  color: white;
+}
+.box {
+  padding: 4px;
+  background: linear-gradient(135deg, #ffe5b0, #ffe262);
+  color: white;
 }
